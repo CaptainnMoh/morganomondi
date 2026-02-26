@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MORGAN OMONDI CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Grain Overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#hero" class="logo">Morgan<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+        <span class="theme-toggle-icon"></span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#resume" class="mobile-nav-link">Resume</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+    </div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="greeting animate-fade-up">Hi, I'm</span>
+          <h1 class="hero-name animate-fade-up" style="animation-delay: 0.2s;">Morgan Omondi<span class="accent">.</span></h1>
+          <h2 class="hero-title animate-fade-up" style="animation-delay: 0.3s;">Sales & Customer Service Professional</h2>
+          <p class="hero-description animate-fade-up" style="animation-delay: 0.4s;">
+            Results-driven sales and customer service professional with experience in telesales, walk-in sales,
+            merchandising and customer relationship management. Strong digital and ICT skills, with a disciplined,
+            goal-oriented work ethic developed through the National Youth Service (NYS).
+          </p>
+          <div class="hero-buttons animate-fade-up" style="animation-delay: 0.5s;">
+            <a href="/cv/Morgan-Omondi-CV.pdf" class="btn btn-primary" download="Morgan-Omondi-CV.pdf">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Contact Me
+            </a>
+          </div>
+          <div class="hero-stats animate-fade-up" style="animation-delay: 0.6s;">
+            <div class="stat">
+              <div class="stat-value">3+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">2+</div>
+              <div class="stat-label">Organizations</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">100%</div>
+              <div class="stat-label">Customer Focus</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrapper animate-fade-up" style="animation-delay: 0.3s;">
+          <div class="hero-image-container" id="heroImage">
+            <div class="image-glow"></div>
+            <div class="hero-image">
+              <img src="images/profile.jpg" alt="Morgan Omondi - Sales & Customer Service Professional">
+            </div>
+            <div class="floating-badge badge-1">CRM & Data</div>
+            <div class="floating-badge badge-2">Customer Support</div>
+            <div class="floating-badge badge-3">Telesales</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>Scroll</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle animate-on-scroll">Get To Know Me</span>
+        <h2 class="section-title animate-on-scroll">About <span class="accent">Me</span></h2>
+        <div class="title-line animate-on-scroll"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-content animate-on-scroll">
+          <p class="about-text">
+            I am a results-driven Sales and Customer Service professional with hands-on experience in telesales,
+            walk-in sales, merchandising and customer relationship management across high-volume environments.
+            I have worked with organizations such as Badili Africa, Apollo Agriculture, KPLC (through NYS),
+            and By Grace Disabled Orphans Centre.
+          </p>
+          <p class="about-text">
+            My strengths include converting leads, exceeding sales targets, gathering customer insights, and
+            maintaining accurate records and inventory. I bring strong digital and ICT skills, including
+            data entry, system use and general computer literacy, alongside a disciplined, goal-oriented work
+            ethic developed through National Youth Service (NYS).
+          </p>
+          <p class="about-text">
+            I am collaborative, resourceful and comfortable working with diverse teams, from sales floors and
+            call centres to field operations. Outside work, I enjoy sports, especially football, skating and
+            swimming, as well as travelling and gaining new experiences.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-value">3+ Years</div>
+              <div class="highlight-label">Sales & Service Experience</div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-value">Multi-Sector</div>
+              <div class="highlight-label">Public & Private Exposure</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-info animate-on-scroll">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div class="info-content">
+              <div class="info-label">Profile</div>
+              <div class="info-value">Sales & Customer Service</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info-content">
+              <div class="info-label">Phone</div>
+              <div class="info-value" >+254708779875</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="info-content">
+              <div class="info-label">Email</div>
+              <div class="info-value">georgemorgans002@gmail.com</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info-content">
+              <div class="info-label">Location</div>
+              <div class="info-value">Kenya</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+            </div>
+            <div class="info-content">
+              <div class="info-label">Languages</div>
+              <div class="info-value">English & Kiswahili</div>
+            </div>
+          </div>
+          <div class="interests">
+            <h4 class="interests-title">My Interests</h4>
+            <div class="interests-tags">
+              <span class="interest-tag">Digital Skills</span>
+              <span class="interest-tag">Sales & Customer Service</span>
+              <span class="interest-tag">Football</span>
+              <span class="interest-tag">Skating</span>
+              <span class="interest-tag">Swimming</span>
+              <span class="interest-tag">Travel & New Experiences</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="section-divider"></div>
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-subtitle animate-on-scroll">My Journey</span>
+        <h2 class="section-title animate-on-scroll">Resume</h2>
+      </div>
+      <div class="resume-grid">
+        <div class="resume-column">
+          <div class="resume-header animate-on-scroll">
+            <div class="resume-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3 class="resume-title">Experience</h3>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Tele Caller Customer Service</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Badili HQ</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Feb 2025 - Present
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Engage customers through walk-in sales, telesales and online enquiries to promote refurbished smartphones.</li>
+                  <li>Manage the company website, including product listings, availability updates and responding to customer enquiries.</li>
+                  <li>Process sales transactions and maintain accurate sales and inventory records.</li>
+                  <li>Work collaboratively with a team of agents, rotating weekly responsibilities to ensure smooth operations.</li>
+                  <li>Contribute to achieving daily and monthly sales targets.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Brand Merchandiser</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Badili Africa, Carrefour Mega Mall</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Jun 2024 - Feb 2025
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Ensured proper product display and visibility within the store to maximise sales.</li>
+                  <li>Monitored stock levels, performed stock-outs and coordinated with the team on replenishment.</li>
+                  <li>Gathered customer insights and feedback to improve product positioning and customer satisfaction.</li>
+                  <li>Supported in-store promotions and customer engagement activities.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Telesales Executive</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Apollo Agriculture</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Jan 2024 - Apr 2024
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Provided top-notch support to agents and farmers through outbound and inbound calls.</li>
+                  <li>Identified potential issues and opportunities to improve the customer experience.</li>
+                  <li>Consistently met and exceeded telesales targets and performance metrics.</li>
+                  <li>Managed customer expectations and communicated clearly on products and services.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Data Meter Collection Specialist</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Kenya Power & Lighting Company (KPLC) / NYS</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Jun 2022 - Dec 2022
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Executed data meter collection initiatives for KPLC in collaboration with NYS.</li>
+                  <li>Accurately captured and recorded meter data in line with set protocols.</li>
+                  <li>Ensured compliance with established standards for data collection and reporting.</li>
+                  <li>Collaborated with team members to optimise efficiency and coverage.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">NYS Security Officer (Elections 2022)</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">National Youth Service</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    2022 General Elections
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Maintained physical security at polling stations and tallying centres.</li>
+                  <li>Protected electoral assets, candidates, voters and election officials.</li>
+                  <li>Supported peaceful and orderly conduct of the electoral process.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Volunteer Teacher</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">By Grace Disabled Orphans Centre</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    2019 - Feb 2020
+                  </span>
+                </div>
+                <ul class="timeline-list">
+                  <li>Taught Mathematics, Biology and English to learners.</li>
+                  <li>Marked and invigilated examinations.</li>
+                  <li>Performed assigned duties to support the centre’s daily operations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume-column">
+          <div class="resume-header animate-on-scroll">
+            <div class="resume-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <h3 class="resume-title">Education</h3>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Certificate in Information Communication Technology</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Textile and Garment Technology Institute</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Grade: Distinction
+                  </span>
+                </div>
+                <p class="timeline-description">Completed ICT training with a strong performance (Distinction), building a solid foundation in digital literacy and computer skills.</p>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Kenya Certificate of Secondary Education (KCSE)</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">By Grace Disabled Orphans Centre</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    Grade: D+
+                  </span>
+                </div>
+                <p class="timeline-description">Completed secondary education, developing resilience and a strong work ethic.</p>
+              </div>
+            </div>
+            <div class="timeline-item animate-on-scroll">
+              <div class="timeline-content">
+                <h4 class="timeline-title">Kenya Certificate of Primary Education (KCPE)</h4>
+                <div class="timeline-meta">
+                  <span class="timeline-company">Elimika Preparatory School</span>
+                  <span class="timeline-date">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    346 / 500 Marks
+                  </span>
+                </div>
+                <p class="timeline-description">Achieved a strong foundation for further education and training.</p>
+              </div>
+            </div>
+          </div>
+          <div class="certifications animate-on-scroll">
+            <h4 class="certifications-title">Certifications</h4>
+            <div class="certifications-grid">
+              <div class="certification-item">IBM Skills-Build Certificate (2022)</div>
+              <div class="certification-item">Driving License Class B1 – NTSA (2021)</div>
+              <div class="certification-item">Certificate in Computer Packages – Kings College (2019)</div>
+              <div class="certification-item">Pan-African Youth Entrepreneur – Kayole 2 Social Hall (2018–2019)</div>
+              <div class="certification-item">Mindset Education – Kasarani IYF (2017)</div>
+              <div class="certification-item">Certificate in Computer Studies – Elimika Preparatory (2013–2014)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="section-divider"></div>
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-subtitle animate-on-scroll">What I Do</span>
+        <h2 class="section-title animate-on-scroll">My <span class="accent">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-column animate-on-scroll">
+          <h3 class="skills-column-title">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Technical & Role Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Telesales & Call Centre Support</span>
+                <span class="skill-percent" data-percent="90">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Walk-in Sales & Merchandising</span>
+                <span class="skill-percent" data-percent="85">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Customer Relationship Management</span>
+                <span class="skill-percent" data-percent="85">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Digital Literacy & Computer Skills</span>
+                <span class="skill-percent" data-percent="96">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="96"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Data Entry & Record Keeping</span>
+                <span class="skill-percent" data-percent="91">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="91"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Driving (Light Vehicles) – Class B1</span>
+                <span class="skill-percent" data-percent="70">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-column animate-on-scroll">
+          <h3 class="skills-column-title">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Professional Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Written & Verbal Communication</span>
+                <span class="skill-percent" data-percent="90">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Customer Service & Conflict Resolution</span>
+                <span class="skill-percent" data-percent="85">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Teamwork & Collaboration</span>
+                <span class="skill-percent" data-percent="85">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Time Management & Discipline</span>
+                <span class="skill-percent" data-percent="85">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Problem Solving</span>
+                <span class="skill-percent" data-percent="80">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Adaptability & Learning</span>
+                <span class="skill-percent" data-percent="80">0%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tools-section animate-on-scroll">
+        <h4 class="tools-title">Tools & Technologies</h4>
+        <div class="tools-grid">
+          <span class="tool-item">Microsoft Office & Computer Packages</span>
+          <span class="tool-item">Call Centre / Telephony Systems</span>
+          <span class="tool-item">Basic CRM & Data Entry Tools</span>
+          <span class="tool-item">Spreadsheets & Reporting</span>
+          <span class="tool-item">Internet & Email Tools</span>
+        </div>
+      </div>
+      <div class="skill-cards">
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h4 class="skill-card-title">Sales & Customer Service</h4>
+          <p class="skill-card-description">Building strong relationships with customers, understanding their needs and consistently meeting or exceeding sales and service targets.</p>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h4 class="skill-card-title">Field Operations & Data Collection</h4>
+          <p class="skill-card-description">Handling on-ground assignments such as meter data collection, stock checks and reporting with accuracy and attention to detail.</p>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h4 class="skill-card-title">Community & Youth Engagement</h4>
+          <p class="skill-card-description">Supporting community-focused initiatives through teaching, mentorship and disciplined service as part of NYS and volunteer work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="section-divider"></div>
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-subtitle animate-on-scroll">My Work</span>
+        <h2 class="section-title animate-on-scroll">Portfolio</h2>
+      </div>
+      <div class="portfolio-filter animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Sales & Service</button>
+        <button class="filter-btn" data-filter="app">Field & Data</button>
+        <button class="filter-btn" data-filter="data">Community & Training</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item animate-on-scroll" data-category="web">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\Telecaller.jpg" alt="Morgan as a Telecaller">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Sales & Customer Service</span>
+            <h3 class="portfolio-title">Badili HQ – Tele Caller & Customer Service</h3>
+            <p class="portfolio-description">Daily telesales and walk-in support for refurbished smartphones, ensuring accurate product information, smooth transactions and positive customer experiences.</p>
+            <div class="portfolio-tech">
+              <span>Telesales</span>
+              <span>Walk-in Sales</span>
+              <span>Customer Support</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Similar Role</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=Badili%20HQ%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item animate-on-scroll" data-category="app">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\Apollo Telecaller.jpg" alt="Morgan as a Telesales">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Telesales</span>
+            <h3 class="portfolio-title">Apollo Agriculture – Telesales Executive</h3>
+            <p class="portfolio-description">Supported agents and farmers by phone, resolving issues, explaining products and consistently meeting or exceeding telesales targets.</p>
+            <div class="portfolio-tech">
+              <span>Customer Calls</span>
+              <span>Issue Resolution</span>
+              <span>Sales Targets</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Telesales</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=Apollo%20Agriculture%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item animate-on-scroll" data-category="data">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\Electric Meter.jpg" alt="Morgan Collecting Meter Data">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Field & Data</span>
+            <h3 class="portfolio-title">KPLC / NYS – Data Meter Collection</h3>
+            <p class="portfolio-description">Collected and recorded electricity meter data accurately in the field, following KPLC protocols and working with NYS teams to cover assigned areas efficiently.</p>
+            <div class="portfolio-tech">
+              <span>Field Work</span>
+              <span>Data Capture</span>
+              <span>Teamwork</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Field Work</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=KPLC%20Data%20Collection%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item animate-on-scroll" data-category="web">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\Badili Brand Merchandiser.jpeg" alt="Morgan as a Badili Brand Merchandiser">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Merchandising</span>
+            <h3 class="portfolio-title">Badili Africa – Brand Merchandiser</h3>
+            <p class="portfolio-description">Managed in-store product display, monitored stock levels and gathered customer feedback to support sales at Carrefour Mega Mall.</p>
+            <div class="portfolio-tech">
+              <span>Display Setup</span>
+              <span>Stock Checks</span>
+              <span>Customer Insights</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Merchandising</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=Badili%20Merchandiser%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item animate-on-scroll" data-category="app">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\NYS Security Officer.jpeg" alt="Morgan as an NYS Officer">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Security</span>
+            <h3 class="portfolio-title">NYS – Election Security Officer</h3>
+            <p class="portfolio-description">Helped maintain safety and order during the 2022 elections by protecting polling stations, electoral assets, candidates, and voters.</p>
+            <div class="portfolio-tech">
+              <span>Security</span>
+              <span>Discipline</span>
+              <span>Public Service</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Security</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=NYS%20Security%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item animate-on-scroll" data-category="app">
+          <div class="portfolio-image">
+            <img src="C:\Users\🤡Captain🤡\Desktop\Morgan\images\Teacher.jpg" alt="Morgan as a Teacher">
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Teaching & Volunteering</span>
+            <h3 class="portfolio-title">By Grace Disabled Orphans Centre – Volunteer Teacher</h3>
+            <p class="portfolio-description">Taught Mathematics, Biology and English, invigilated examinations and supported daily duties at a centre for disabled orphans.</p>
+            <div class="portfolio-tech">
+              <span>Teaching</span>
+              <span>Mentorship</span>
+              <span>Community Service</span>
+            </div>
+            <div class="portfolio-links">
+              <a href="#contact" class="portfolio-link">Hire for Training</a>
+              <a href="mailto:georgemorgans002@gmail.com?subject=Volunteer%20Teaching%20Experience" class="portfolio-link secondary">Request Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-footer animate-on-scroll">
+        <a href="mailto:georgemorgans002@gmail.com?subject=Request%20Full%20CV" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          Request Full CV
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-divider"></div>
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-subtitle animate-on-scroll">Get In Touch</span>
+        <h2 class="section-title animate-on-scroll">Contact <span class="accent">Me</span></h2>
+        <p class="section-description animate-on-scroll">
+          Looking for a reliable sales or customer service professional? Get in touch with me directly
+          via phone, email, or the contact form below.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <h3 class="contact-info-title">Let's Talk</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-content">
+                <div class="contact-label">Location</div>
+                <div class="contact-value">Kenya</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-content">
+                <div class="contact-label">Phone</div>
+                <div class="contact-value">+254708779875</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-content">
+                <div class="contact-label">Email</div>
+                <div class="contact-value">georgemorgans002@gmail.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <h4 class="social-title">Follow Me</h4>
+            <div class="social-icons">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="availability-badge">
+            <div class="availability-indicator"></div>
+            <span class="availability-text">Available for Work</span>
+        <p class="availability-note">I'm currently open to Tech, sales, customer service and field roles.</p>
+          </div>
+        </div>
+        <div class="contact-form-wrapper animate-on-scroll">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="doe@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Job Opportunity or Inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell me about the role or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+          <div class="form-message" id="formMessage"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">Morgan</a>
+          <p class="footer-tagline">Tech, Sales & Customer Service Professional</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#hero" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#resume" class="footer-link">Resume</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#portfolio" class="footer-link">Portfolio</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-copyright">
+        <p>&copy; 2024 Morgan Omondi. Made with <span class="heart">❤</span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
